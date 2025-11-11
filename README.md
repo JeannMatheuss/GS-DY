@@ -21,7 +21,7 @@ Conecta a **requalificação profissional (ONU/OIT, ODS 8/10)**, simulando **tra
 ---
 
 ## 🚀 Como Usar
-1. **Baixe o projeto  
+1. **Baixe o projeto**  
 2. **Execute as células em ordem:** validação → desafios → figuras.  
 3. **Dados de entrada:** carregue `skills_data.json`.  
 4. **Resultados:** prints no console; salve em `results.txt`.
