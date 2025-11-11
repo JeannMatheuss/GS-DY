@@ -1,0 +1,15 @@
+// {
+  "S1": {"Nome": "Programação Básica (Python)", "Tempo": 80, "Valor": 3, "Complexidade": 4, "Pre_Reqs": []},
+  "S2": {"Nome": "Modelagem de Dados (SQL)", "Tempo": 60, "Valor": 4, "Complexidade": 3, "Pre_Reqs": []},
+  "S3": {"Nome": "Algoritmos Avançados", "Tempo": 100, "Valor": 7, "Complexidade": 8, "Pre_Reqs": ["S1"]},
+  "S4": {"Nome": "Fundamentos de Machine Learning", "Tempo": 120, "Valor": 8, "Complexidade": 9, "Pre_Reqs": ["S1", "S3"]},
+  "S5": {"Nome": "Visualização de Dados (BI)", "Tempo": 40, "Valor": 6, "Complexidade": 5, "Pre_Reqs": ["S2"]},
+  "S6": {"Nome": "IA Generativa Ética", "Tempo": 150, "Valor": 10, "Complexidade": 10, "Pre_Reqs": ["S4"]},
+  "S7": {"Nome": "Estruturas em Nuvem (AWS/Azure)", "Tempo": 70, "Valor": 5, "Complexidade": 7, "Pre_Reqs": []},
+  "S8": {"Nome": "APIs e Microsserviços", "Tempo": 90, "Valor": 6, "Complexidade": 6, "Pre_Reqs": ["S1"]},
+  "S9": {"Nome": "DevOps & CI/CD", "Tempo": 110, "Valor": 9, "Complexidade": 8, "Pre_Reqs": ["S7", "S8"]},
+  "H10": {"Nome": "Segurança de Dados", "Tempo": 60, "Valor": 5, "Complexidade": 6, "Pre_Reqs": []},
+  "H11": {"Nome": "Análise de Big Data", "Tempo": 90, "Valor": 8, "Complexidade": 8, "Pre_Reqs": ["S4"]},
+  "H12": {"Nome": "Introdução a IoT", "Tempo": 30, "Valor": 3, "Complexidade": 3, "Pre_Reqs": []},
+  "Extensao1": {"Nome": "Habilidades em Sustentabilidade Verde", "Tempo": 50, "Valor": 7, "Complexidade": 5, "Pre_Reqs": ["S2"]}
+}

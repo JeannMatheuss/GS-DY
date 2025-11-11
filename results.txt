@@ -1,0 +1,26 @@
+Desafio 1 - Caminho de Valor Máximo
+Solução Determinística: Valor Máximo = 28, Caminho = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6']
+Monte Carlo: E[Valor] = 28.5, Desvio-Padrão = 2.1
+Comparação: Determinístico vs Esperado = 28 vs 28.5
+
+Desafio 2 - Verificação Crítica
+Total Permutações: 120
+Top 3 Ordens por Custo:
+1. Ordem: ('S7', 'S8', 'S3', 'S5', 'S9'), Custo: 410
+2. Ordem: ('S3', 'S5', 'S7', 'S8', 'S9'), Custo: 420
+3. Ordem: ('S5', 'S7', 'S8', 'S3', 'S9'), Custo: 425
+Custo Médio Top 3: 418.33
+
+Desafio 3 - Pivô Mais Rápido
+Guloso: Selecionadas = ['S2', 'S1', 'S7'], S = 12
+Ótimo: Selecionadas = ['S2', 'S7', 'H10'], S = 14
+
+Desafio 4 - Trilhas Paralelas
+Ordenação por Complexidade: ['H12', 'S2', 'S5', 'S1', 'S8', 'S7', 'H10', 'S3', 'S9', 'H11', 'S4', 'S6']
+Sprint A (1-6): ['H12', 'S2', 'S5', 'S1', 'S8', 'S7']
+Sprint B (7-12): ['H10', 'S3', 'S9', 'H11', 'S4', 'S6']
+Tempo Custom: 0.0012s, Nativo: 0.0008s
+
+Desafio 5 - Recomendar Próximas Habilidades
+Perfil Atual: {'S1'}
+Próximas Recomendadas (2-3): ['S3', 'S4', 'S8']
